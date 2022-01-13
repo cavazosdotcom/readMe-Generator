@@ -1,3 +1,4 @@
+// questions array with each of the questions nested objects
 const questions = [{
     type: 'input',
     message: 'What is your Github username?',
@@ -21,7 +22,7 @@ const questions = [{
 {
     type: 'list',
     message: 'What kind of liscense should your project have?',
-    name: 'languages',
+    name: 'license',
     choices: ['MIT','APACHE 2.0','GPL 3.0','BSD 3','None'],
 },
 {
@@ -39,14 +40,14 @@ const questions = [{
 {
     type: 'input',
     message: 'What does the user need to know about using the repo?',
-    name: 'using',
+    name: 'usage',
 },
 {
     type: 'input',
     message: 'What does the user need to know about contributing to the repo?',
-    name: 'contribute',
+    name: 'contributing',
 },
 ];
 
-
+// exports the questions array
 module.exports = questions;
