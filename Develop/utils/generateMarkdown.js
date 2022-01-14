@@ -52,16 +52,17 @@ function renderLicenseSection(license) {
   if(license === 'None'){
     return `This project does not have a license`
   } else {
-    return `This project is licensed under ${license}`
+    return `This project is licensed under the \`${license}\` license`
   };
 };
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+  # ${data.title}
   ${renderLicenseBadge(data.license)}
   
-  ## Description
+  # Description
   
   - ${data.description}
   
@@ -80,36 +81,36 @@ function generateMarkdown(data) {
   * [Questions](#questions)
   
 
-  ## Installation
+  # Installation
   To install necessary dependencies, run the following command:
   
   \`\`\`bash
   ${data.dependencies}
   \`\`\`
 
-  ## Usage
+  # Usage
   
   \`\`\`md
   ${data.usage}
   \`\`\`
 
-  ## License
+  # License
 
   ${renderLicenseSection(data.license)}
 
-  ## Contributing
+  # Contributing
   
   \`\`\`md
   ${data.contributing}
   \`\`\`
   
-  ## Tests
+  # Tests
   
   \`\`\`bash
   ${data.tests}
   \`\`\`
 
-  ## Questions
+  # Questions
   If you have any questions feel free to contact me at either [Github](${data.github}), or [${data.email}](${data.email})  
 
 `;
