@@ -79,5 +79,5 @@ There is currently no testing for this application
 
 
 # Questions
-If you have any questions feel free to contact me at either [Github](cavazosdotcom), or [cavazosdotcom@gmail.com](cavazosdotcom@gmail.com)  
+If you have any questions feel free to contact me at either [Github](https://github.com/cavazosdotcom), or [cavazosdotcom@gmail.com](cavazosdotcom@gmail.com)  
 
