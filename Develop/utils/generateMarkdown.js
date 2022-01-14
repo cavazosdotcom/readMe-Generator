@@ -111,7 +111,7 @@ function generateMarkdown(data) {
   \`\`\`
 
   # Questions
-  If you have any questions feel free to contact me at either [Github](${data.github}), or [${data.email}](${data.email})  
+  If you have any questions feel free to contact me at either [Github](https://github.com/${data.github}), or [${data.email}](${data.email})  
 
 `;
 }
