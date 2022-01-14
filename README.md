@@ -3,6 +3,8 @@
   
 # Description
 
+[Video: How to install and run application](https://watch.screencastify.com/v/an6e3CDaipHS21Kx4lAE)
+
 This project prompts the user with questions, then quickly generates a README.md file based on their input.
 
 When the user calls: 
